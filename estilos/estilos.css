@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.estilo_nav{
+    background-color: #353a40;
+    padding-right: 5%;
+}
+.padding_logo{
+    padding-left: 5%;
+}
+.pantalla_dividida_der{
+    background-color: #343A40;
+    color:#ffffff;
+}
+.pantalla_dividida_izq{
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-item{
+    height: 86vh;
+    min-height: 300px;
+    background-size: cover;   
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.5;
+}
+.carousel-caption{
+
+    bottom: 130px;
+    text-align: end;
+    padding-left: 32%;
+}
+.form{
+    margin-left:25%;
+    margin-right:25%;
+}
+.color_boton_enviar{
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+.subrayado_ignite{
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    text-decoration: none; 
+}
+.ancho_cards{
+    width: 13rem;
+}
+.margen_cartas{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.pie_pagina{
+    background-color: #1e445b;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.pie_pagina a{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;       
+} 
+.centrado{
+    text-align: center;
+}
+.alinear_texto{
+    text-align: center;
+}
+.ancho_form{
+    margin-left: 26%;
+    margin-right: 26%;
+}
